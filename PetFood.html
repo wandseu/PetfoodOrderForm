@@ -1,0 +1,226 @@
+<!DOCTYPE = html>
+<html>
+    <head>
+        <title>Henry's Petfood Hideaway</title>
+        <link rel = "stylesheet" href = "style.css"/>
+    </head>
+    
+    <body>
+        <div class = "nav">
+            <ul class = "navList">
+                <li><a href = "#">HOME</a></li>
+                <li><a href = "#">PETS</a></li>
+                <li><a href = "#">PETFOOD</a></li>
+                <li><a href = "#">PRICES</a></li>
+                <li><a href = "#">OTHER PRODUCTS</a></li>
+                <li><a href = "#">ABOUT</a></li>
+            </ul>
+        </div>
+        
+        <div class = "header">
+            <!--
+            <img class = "petfood" src = "Image/pfood.png"/>
+            <img class = "boneHead" src = "Image/bone.png"/>
+            -->
+            <img class = "petfood" src = "Image/bone.png"/>
+        </div>
+        
+        <div class = "OrderForm">
+            <h2>ORDER FORM</h2>
+        </div>
+        
+        <form action="#">
+        <div class = "Details">
+            <div class="ShipAdd">
+                <table width = 600px;>
+                    <th colspan="3">SHIPPING ADDRESS</th>
+                        <tr>
+                            <td>
+                                <label>NAME:<input class = "InputUName" type = "text" name = "username" maxlength="50">
+                                </label>
+                           
+                                <label>ADDRESS:<input class = "InputAddress" type = "text" name = "address" maxlength="250">
+                                </label>
+                            
+                                <label>CITY:<input class = "InputCity" type = "text" name = "city" maxlength="100">
+                                </label>
+                           
+                                <label>STATE:<select class="SelectState" name = "state">
+                                    <option value = "ChooseState">Choose a State</option>
+                                    <option value = "GoldenState">Golden State</option>
+                                    <option value = "CityState">City State</option>
+                                </select>
+                                </label>
+                                
+                                <label>ZIP CODE:<input class = "InputZipCode" type = "text" name = "zipCode" maxlength="10">
+                                </label>
+                                
+                                <label>TELEPHONE:<input class = "InputTel" type = "text" name = "tel" maxlength="10">
+                                </label>
+                                
+                                <label>EMAIL ADDRESS:<input class = "InputEmailAdd" type = "email" name = "emailAdd" maxlength="50">
+                                </label>
+                            </td>
+                        </tr>
+                </table>
+                
+            </div>
+            
+            <div class = "Dog">
+                <img src = "Image/dog.gif"/>
+            </div>
+        </div>
+            
+        <div class = "Details">
+            <div class = BillAdd>
+                <table width = 600px;>
+                    <th colspan="3">BILLING ADDRESS</th>
+                        <tr>
+                            <td>
+                                <label>NAME:<input class = "InputUName" type = "text" name = "username" maxlength="50">
+                                </label>
+                                
+                                <label>ADDRESS:<input class = "InputAddress" type = "text" name = "address" maxlength="250">
+                                </label>
+                            
+                                <label>CITY:<input class = "InputCity" type = "text" name = "city" maxlength="100">
+                                </label>
+                           
+                                <label>STATE:<select class="SelectState" name = "state">
+                                    <option value = "ChooseState">Choose a State</option>
+                                    <option value = "GoldenState">Golden State</option>
+                                    <option value = "CityState">City State</option>
+                                </select>
+                                </label>
+                                
+                                <label>ZIP CODE:<input class = "InputZipCode" type = "text" name = "zipCode" maxlength="10">
+                                </label>
+                                
+                                <label>TELEPHONE:<input class = "InputTel" type = "text" name = "tel" maxlength="10">
+                                </label>
+                                
+                                <label>EMAIL ADDRESS:<input class = "InputEmailAdd" type = "email" name = "emailAdd" maxlength="50">
+                                </label>
+                            </td>
+                        </tr>
+                </table>
+            </div> 
+            
+            <div class = "Cat">
+                <img src = "Image/cat.gif"/>
+            </div>
+        </div>
+        
+        <div class = "ProductsOrder">
+            <table width = 600px; border = "2">
+                <h1>PRODUCTS TO ORDER</h1>
+                    <tr>
+                        <td>ITEM</td>
+                        <td>QUANTITY</td>
+                        <td>REPEAT<br/>ORDER</td>
+                        <td>PRICE</td>
+                        <td>EXT.COST</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Puppy Chow</td>
+                        <td>
+                            <select class="SelectQuantity" name = "quantity">
+                                <option value = "ChooseQuantity">Choose a quantity</option>
+                                <option value = "1">1</option>
+                                <option value = "2">2</option>
+                                <option value = "3">3</option>
+                            </select>
+                        </td>
+                        <td>
+                            <input type ="checkbox" name = "checkbox">
+                        </td>
+                        <td>@ 1.50</td>
+                        <td></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Dog Food</td>
+                        <td>
+                            <select class="SelectQuantity" name = "quantity">
+                                <option value = "ChooseQuantity">Choose a quantity</option>
+                                <option value = "1">1</option>
+                                <option value = "2">2</option>
+                                <option value = "3">3</option>
+                            </select>
+                        </td>
+                        <td>
+                            <input type ="checkbox" name = "checkbox">
+                        </td>
+                        <td>@ 0.25</td>
+                        <td></td>
+                    </tr>
+                
+                     <tr>
+                        <td>Treats</td>
+                        <td>
+                            <select class="SelectQuantity" name = "quantity">
+                                <option value = "ChooseQuantity">Choose a quantity</option>
+                                <option value = "1">1</option>
+                                <option value = "2">2</option>
+                                <option value = "3">3</option>
+                            </select>
+                        </td>
+                        <td>
+                            <input type ="checkbox" name = "checkbox">
+                        </td>
+                        <td>@ 0.30</td>
+                        <td></td>
+                    </tr>
+                
+                     <tr>
+                        <td>More Treats</td>
+                        <td>
+                            <label>Yes<input type ="checkbox" name = "checkbox">
+                            </label>
+                        </td>
+                        <td>
+                        </td>
+                        <td>@ 0.30</td>
+                        <td></td>
+                    </tr>
+                
+                    <tr>
+                        <td align = "right" colspan="4">6.25% Sales Tax:</td>
+                        <td></td>
+                    </tr>
+                
+                    <tr>
+                        <td align = "right" colspan="4">
+                            <label>Shipping Method:
+                            <select class="SelectMethod" name = "method">
+                                <option value = "ChooseMethod">Choose a shipping method</option>
+                                <option value = "PU">Pick-Up</option>
+                                <option value = "D">Delivery</option>
+                            </select>
+                            </label>
+                        </td>
+                        <td></td>
+                    </tr>
+                
+                    <tr>
+                        <td align = "right" colspan="4">Total:</td>
+                        <td></td>
+                    </tr>
+            </table>
+            
+            <div class = "Cat2">
+                <img src = "Image/Cat2.gif"/>
+            </div>
+            
+            <div class = "Buttons">
+            <input class = "Submit" type="submit" value = "SUBMIT" name = "submit" onclick = "alert('SUBMITTED!');">
+            <input class = "Reset" type ="reset" value = "RESET" name = "reset">
+            </div>
+        </div>
+        
+        </form>
+       
+    </body>
+</html>
+
